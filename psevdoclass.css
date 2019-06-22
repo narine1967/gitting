@@ -1,0 +1,35 @@
+a:link{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color: lime;
+}
+a:active{
+	color: blue;
+}
+input[type='checkbox']:checked{
+	height: 50px;
+	width: 50px;
+	
+}
+input[type="text"]:disabled{
+	background: yellow;
+}
+
+input[type="text"]:enabled{
+	background: aqua;
+}
+input[type="text"]:focus{
+	background: lime;
+}
+
+input[type="text"]:active{
+	background: maroon;
+}
+
+input[type="email"]:disabled{
+	background: yellow;
+}
